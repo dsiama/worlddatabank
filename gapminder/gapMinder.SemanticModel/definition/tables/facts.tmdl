@@ -1,0 +1,112 @@
+table facts
+	lineageTag: a5241ec6-e0e6-4397-9b6e-4910745ff300
+
+	measure PIB_per_Capita =
+			
+			CALCULATE(
+			    SUM('facts'[value]),
+			    'facts'[indicator_id] = "gdppercapita_us_inflation_adjusted" -- Garante o nome exato da tua dimensão
+			)
+		lineageTag: 8365834c-94bc-4f2e-8356-204fad8e545c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Esperanca_Vida_F =
+			
+			CALCULATE(
+			    SUM('facts'[value]),
+			    'facts'[indicator_id] = "life_expectancy_female"
+			)
+		lineageTag: fa3e14ad-d7a6-45f4-8c04-a2016184630e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Populacao Total' =
+			
+			CALCULATE(
+			    SUM('facts'[value]),
+			    'facts'[indicator_id] = "total_population_with_projections"
+			)
+		lineageTag: 9feaabe7-2d1e-4805-be68-b75582cc635b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column geo_id
+		dataType: string
+		lineageTag: 8a419394-1097-43a1-9dc2-a38edbae3be0
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column continent
+		dataType: string
+		lineageTag: 9da227ed-27b8-4ec8-80bf-4f3cae79a164
+		summarizeBy: none
+		sourceColumn: continent
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 821e2a2c-85fc-4cd1-a338-22bdb095d9ec
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicator_id
+		dataType: string
+		lineageTag: db4bceec-cdac-4b43-94f0-b4ec99ed291e
+		summarizeBy: none
+		sourceColumn: indicator_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column value
+		dataType: double
+		lineageTag: 25dba6f9-0f6f-4d12-a32d-7659fb4534ad
+		summarizeBy: sum
+		sourceColumn: value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column _gold_updated_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 40b6dd03-00bd-47e8-9349-187f2fab561d
+		summarizeBy: none
+		sourceColumn: _gold_updated_at
+
+		variation Variation
+			isDefault
+			relationship: 62273222-92a3-4c62-b678-4bc7cba9e069
+			defaultHierarchy: LocalDateTable_8986cf19-ae03-4b12-894d-a0718f53778b.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column year_rank_index
+		dataType: int64
+		formatString: 0
+		lineageTag: 4df4b245-7718-458c-91d3-42910c1b77a0
+		summarizeBy: sum
+		sourceColumn: year_rank_index
+
+		annotation SummarizationSetBy = Automatic
+
+	partition facts = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("brfdwxy6bn3ephuvnez6iqeos4-7yy4p2f7oqdendqxi6zrr757ta.datawarehouse.fabric.microsoft.com", "worldDataBank_lh"),
+				    world_data_gapminder_gapminder_gold_analytics_fact = Source{[Schema="world_data_gapminder",Item="gapminder_gold_analytics_fact"]}[Data]
+				in
+				    world_data_gapminder_gapminder_gold_analytics_fact
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,45 @@
+table tags
+	lineageTag: cc87b8e0-98d3-4897-aae0-4cb11a782241
+
+	column indicator_id
+		dataType: string
+		lineageTag: 99b7c4d8-72bc-44ec-8f61-6f8550c5a14e
+		summarizeBy: none
+		sourceColumn: indicator_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column tag
+		dataType: string
+		lineageTag: e2109b90-fd1a-4c1c-857c-86618caa4425
+		summarizeBy: none
+		sourceColumn: tag
+
+		annotation SummarizationSetBy = Automatic
+
+	column _ingested_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 4844ea9a-a10f-4457-8e54-c712ccd68c2a
+		summarizeBy: none
+		sourceColumn: _ingested_at
+
+		variation Variation
+			isDefault
+			relationship: 7b8e4856-2c76-4a67-8a91-98b2474f4692
+			defaultHierarchy: LocalDateTable_274cc991-febe-4393-95ef-00c4c4dd4a83.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tags = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("brfdwxy6bn3ephuvnez6iqeos4-7yy4p2f7oqdendqxi6zrr757ta.datawarehouse.fabric.microsoft.com", "worldDataBank_lh"),
+				    world_data_gapminder_gapminder_gold_rel_indicator_tags = Source{[Schema="world_data_gapminder",Item="gapminder_gold_rel_indicator_tags"]}[Data],
+				    #"Renamed Columns" = Table.RenameColumns(world_data_gapminder_gapminder_gold_rel_indicator_tags,{{"tag_name", "tag"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_ResultType = Table
+
