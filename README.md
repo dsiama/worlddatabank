@@ -4,6 +4,44 @@
 
 ## 📁 1. Visão Geral
 
+
+# Regras Gerais 
+
+- Minimizar a dependência de componentes proprietários (Low-Code),  concentrar a lógica em código standard.
+	
+- "Thin Pipelines, Fat Notebooks"
+	- Ferramentas proprietárias para a operacionalização da solução do tipo de solução de plataforma (PaaS e DaaS) que representam lockin, devem ser usadas apenas como um scheduler e trigger básico. "Apenas chama o Notebook."
+	- Toda a lógica de transformação, orquestração de sub-tarefas e validação de dados deve estar dentro de Notebook/container Python.
+	- Ser testado periodicamente a execução deste código em diferentes arquiteturas não plataforma
+	- Evitar atividades de "Lookup", "Filter", "ForEach" visuais ou outras muito especificas a plataformas próprias. 
+	- Evitar utilização de assets proprietários e quando utilizados, providenciar forma de rapidamente serem portados para uma lógica de código aberto. Privilegiar o uso de Notebook e  código SQL
+
+- Abstração da Camada de Dados
+	- Utilizar formato Delta Lake ou similar que seja um standard de mercado aberto e portável
+	- Utilizar caminhos relativos para definir pontos de montagem facilitando a troca de storage no futuro.
+		
+- Orquestração baseada em Metadados (Metadata-Driven)
+	- dar prevalência a uma logica de reutilização de pipelines únicos e genéricos:  não desenvolver uma pipeline para cada transformação, utilizar uma lógica de poucas pipelines master que percebem as suas transformações a partir de metadados (JSON, Tabelas de SQL, …)
+
+- Controlo de versão
+	- utilizar as integrações com Git para manter um ambiente de DevOps
+	- as lógcas dos workloads não devem estar presas dentro da plataforma PaaS / SaaS, mas sim no repositório de código
+
+- Observabilidade Agnóstica
+	- implementar uma lógica de notebook wrapper com implementação de uma classe a ser utilizda por todos os outros notebooks e que ao ser utilizada guarda logs num repositório centralizado
+	- guardar dados como o run_id, job_name, status, start_time, end_time, rows_affected, assets_affected, error_message, payload
+	- guardar esta info num storage de baixa latência e/ou API
+
+- Modelo Semântico Agnóstico
+	- Dentro do tecnicamente possível, aproximar a camada de dados Gold ao modelo semântio. Fazer um bom balanceamento relativamente às métricas já produzidas em Gold e a mais valias de utilização do modelo desenvolvido em/com PBI e funções próprias de Dax (ferramentas já usadas na ARTE)
+
+- Governação
+	- Implementar uma estratégia de governação portável. Utilizar os metadados do delta como fonte de metadados para governação de forma a outras ferramentas (Purview, Unity, Amundsen, …) a puderem consumir.
+		
+		
+		
+		
+
 Workspace Fabric estruturado segundo a arquitetura **Medallion (Bronze → Silver → Gold)**, com separação clara entre ingestão, transformação e consumo.
 
 ```
