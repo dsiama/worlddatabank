@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "gapMinder"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "11663176-f7a8-ace1-4190-854f4187c1dd"
+  }
+}

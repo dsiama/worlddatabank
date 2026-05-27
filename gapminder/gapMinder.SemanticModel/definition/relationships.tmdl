@@ -1,0 +1,39 @@
+relationship 62273222-92a3-4c62-b678-4bc7cba9e069
+	joinOnDateBehavior: datePartOnly
+	fromColumn: facts._gold_updated_at
+	toColumn: LocalDateTable_8986cf19-ae03-4b12-894d-a0718f53778b.Date
+
+relationship 8fd7a804-799f-4a64-9564-2549470f0a89
+	joinOnDateBehavior: datePartOnly
+	fromColumn: indicators._ingested_at
+	toColumn: LocalDateTable_ea1dc20c-ab26-4ac8-895e-855ee0ad48d5.Date
+
+relationship 7b8e4856-2c76-4a67-8a91-98b2474f4692
+	joinOnDateBehavior: datePartOnly
+	fromColumn: tags._ingested_at
+	toColumn: LocalDateTable_274cc991-febe-4393-95ef-00c4c4dd4a83.Date
+
+relationship AutoDetected_fafde2d2-1cd8-481a-9e38-2de75e95f9c2
+	crossFilteringBehavior: bothDirections
+	fromColumn: facts.geo_id
+	toColumn: geo.geo_id
+
+relationship AutoDetected_6a05b793-b927-479f-a680-211d6b2b4809
+	fromColumn: facts.indicator_id
+	toColumn: indicators.indicator_id
+
+relationship AutoDetected_48efc78d-0b25-42ee-a663-537b64dba8a3
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: tags.indicator_id
+	toColumn: indicators.indicator_id
+
+relationship e0e73174-7d2c-4149-bd85-dbb64064286a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: years.date_id
+	toColumn: LocalDateTable_f2e8e0d2-9e3e-481a-9a26-cad984b899a0.Date
+
+relationship AutoDetected_5df1f791-e64a-4d16-a732-e9f3df8d5c05
+	fromColumn: facts.year
+	toColumn: years.year
+

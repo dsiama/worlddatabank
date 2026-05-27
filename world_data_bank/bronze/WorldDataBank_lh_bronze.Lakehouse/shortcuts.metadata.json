@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Global_Libs",
+    "path": "/Files",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Files/Global_Libs",
+        "itemId": "171614e7-dd6e-4c8d-9a96-99ffee6ca4bb",
+        "workspaceId": "eb8569e3-4b7f-4d88-8453-cfffe3e1f58a"
+      }
+    }
+  }
+]

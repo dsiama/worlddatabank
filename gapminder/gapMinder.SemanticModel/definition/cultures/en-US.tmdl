@@ -1,0 +1,4772 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "fact": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fact": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "statement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "detail": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "circumstance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "occurrence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "happening": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "deed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "fact.geo_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "geo_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "geo id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "geo_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "geo identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "geo identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "geo identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "geo credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fact.continent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "continent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "continent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "landmass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "landform": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "island": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mainland": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "fact.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "fact.indicator_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "indicator_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "indicator id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indicator_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "indicator identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fact.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "fact.gold_updated_at": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "_gold_updated_at"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gold updated at": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_gold_updated_at": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "trophy updated at": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "title updated at": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "medal updated at": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "jewelry updated at": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fact.gold_updated_at.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "VariationSource": "_gold_updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gold updated at date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fact.gold_updated_at.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "VariationSource": "_gold_updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gold updated at year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "gold updated at yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "trophy updated at year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "title updated at year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "medal updated at year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "jewelry updated at year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.464
+			          }
+			        },
+			        {
+			          "treasure updated at year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        },
+			        {
+			          "bullion updated at year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fact.gold_updated_at.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "VariationSource": "_gold_updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gold updated at quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "gold updated at qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.686
+			          }
+			        },
+			        {
+			          "trophy updated at quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "title updated at quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "medal updated at quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "jewelry updated at quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.464
+			          }
+			        },
+			        {
+			          "treasure updated at quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        },
+			        {
+			          "bullion updated at quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fact.gold_updated_at.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "VariationSource": "_gold_updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gold updated at month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "gold updated at mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "trophy updated at month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "title updated at month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "medal updated at month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "jewelry updated at month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.464
+			          }
+			        },
+			        {
+			          "treasure updated at month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        },
+			        {
+			          "bullion updated at month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fact.gold_updated_at.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "VariationSource": "_gold_updated_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gold updated at day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "trophy updated at day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "title updated at day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "medal updated at day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "jewelry updated at day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.464
+			          }
+			        },
+			        {
+			          "treasure updated at day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        },
+			        {
+			          "bullion updated at day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "geo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "geo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "geo.geo_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "geo_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "geo id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "geo_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "geo identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "geo identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "geo identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "geo credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "geo.country_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "country_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "country": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "country nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "country title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "country label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "country tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "nation name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "location name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "geo.macro_region_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "macro_region_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "macro region id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "macro_region_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "region": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "macro region": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "region id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "macro location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "macro region identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "macro region identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "macro region identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "macro province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "region identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "region identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "region identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "macro region credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "geo.macro_region_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "macro_region_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "macro region name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "macro_region_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "region": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "macro region": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "region name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "macro location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "macro province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "macro region nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "macro region title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "macro region label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "macro region tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "macro area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "macro district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "geo.sdg_region_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "sdg_region_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sdg region id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sdg_region_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sdg region identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "sdg region identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "sdg region identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "sdg region credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sdg location id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.677
+			          }
+			        },
+			        {
+			          "sdg province id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "sdg area id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "sdg district id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "sdg section id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "sdg zone id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "geo.sdg_region_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "sdg_region_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sdg region name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sdg_region_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sdg region nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sdg region title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sdg region label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sdg region tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sdg location name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.677
+			          }
+			        },
+			        {
+			          "sdg province name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "sdg area name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "sdg district name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "sdg section name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "sdg zone name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "geo.latitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "geo.longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "longitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitude": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "geo.is_un_state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "is_un_state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "is un state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "is_un_state": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "is un location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "is un province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "is un territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "is un nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "is un condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "is un country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "indicator": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicator": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "needle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "gage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "gauge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "meter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "marker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "sign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "guide": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "indicator.indicator_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators",
+			          "ConceptualProperty": "indicator_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicator id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "indicator_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "indicator identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "indicator.indicator_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators",
+			          "ConceptualProperty": "indicator"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicator name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "indicator_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "indicator nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "indicator title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "indicator label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "indicator tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "indicator.indicator_description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators",
+			          "ConceptualProperty": "indicator_description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicator description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indicator_description": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "description": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "indicator appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "indicator account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "indicator overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "indicator.ingested_at": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators",
+			          "ConceptualProperty": "_ingested_at"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ingested_at": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "indicator.ingested_at.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "indicator.ingested_at.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ingested at yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "indicator.ingested_at.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ingested at qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "indicator.ingested_at.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ingested at mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "indicator.ingested_at.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "indicators",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tags"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ticket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "docket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "tag.indicator_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tags",
+			          "ConceptualProperty": "indicator_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicator id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indicator_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "indicator identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "indicator credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "tag.tag_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tags",
+			          "ConceptualProperty": "tag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tag name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tag_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tag nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tag title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tag label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tag tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "tag.ingested_at": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tags",
+			          "ConceptualProperty": "_ingested_at"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ingested_at": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tag.ingested_at.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tags",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tag.ingested_at.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tags",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ingested at yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tag.ingested_at.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tags",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ingested at qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tag.ingested_at.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tags",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ingested at mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tag.ingested_at.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tags",
+			          "VariationSource": "_ingested_at",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingested at day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pipeline_logs.pipeline_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pipeline_logs",
+			          "ConceptualProperty": "pipeline_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pipeline": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "pipeline_logs.lastts": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "pipeline_logs",
+			          "ConceptualProperty": "lastTS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last log": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "geo_is_named_geo_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.geo_id": {
+			          "Target": {
+			            "Entity": "geo.geo_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Name": {
+			              "Role": "geo.geo_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geo_ids_are_names_IDs_of_geos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.geo_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_geo_ids"
+			        }
+			      ]
+			    },
+			    "indicator_is_named_indicator_id": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.indicator_id": {
+			          "Target": {
+			            "Entity": "indicator.indicator_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Name": {
+			              "Role": "indicator.indicator_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicator_ids_are_names_IDs_of_indicators"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
+			              "Role": "indicator.indicator_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_have_indicator_ids"
+			        }
+			      ]
+			    },
+			    "indicator_is_named_indicator_name": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.indicator_name": {
+			          "Target": {
+			            "Entity": "indicator.indicator_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Name": {
+			              "Role": "indicator.indicator_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicator_names_are_names_IDs_of_indicators"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
+			              "Role": "indicator.indicator_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_have_indicator_names"
+			        }
+			      ]
+			    },
+			    "indicator_indicate": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Verbs": [
+			              {
+			                "indicate": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "indicators_indicate"
+			        }
+			      ]
+			    },
+			    "fact_is_updated_on_gold_updated_at": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.gold_updated_at": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "fact.gold_updated_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "update": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fact"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "facts_are_updated_on_gold_updated_at"
+			        }
+			      ]
+			    },
+			    "indicator_is_ingested_on_ingested_at": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.ingested_at": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "indicator.ingested_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "ingest": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "indicator"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "indicators_are_ingested_on_ingested_at"
+			        }
+			      ]
+			    },
+			    "tag_is_ingested_on_ingested_at": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        },
+			        "tag.ingested_at": {
+			          "Target": {
+			            "Entity": "tag.ingested_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "tag.ingested_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "ingest": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "tag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "tags_are_ingested_on_ingested_at"
+			        }
+			      ]
+			    },
+			    "fact_in_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.continent": {
+			          "Target": {
+			            "Entity": "fact.continent"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "fact.continent"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fact.continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_are_in_continents"
+			        }
+			      ]
+			    },
+			    "geo_in_country_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.country_name": {
+			          "Target": {
+			            "Entity": "geo.country_name"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.country_name"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.country_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_country_names"
+			        }
+			      ]
+			    },
+			    "geo_in_macro_region_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.macro_region_id": {
+			          "Target": {
+			            "Entity": "geo.macro_region_id"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.macro_region_id"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.macro_region_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_macro_region_ids"
+			        }
+			      ]
+			    },
+			    "geo_in_macro_region_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.macro_region_name": {
+			          "Target": {
+			            "Entity": "geo.macro_region_name"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.macro_region_name"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.macro_region_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_macro_region_names"
+			        }
+			      ]
+			    },
+			    "geo_in_sdg_region_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.sdg_region_id": {
+			          "Target": {
+			            "Entity": "geo.sdg_region_id"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.sdg_region_id"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.sdg_region_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_sdg_region_ids"
+			        }
+			      ]
+			    },
+			    "geo_in_sdg_region_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.sdg_region_name": {
+			          "Target": {
+			            "Entity": "geo.sdg_region_name"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.sdg_region_name"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.sdg_region_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_sdg_region_names"
+			        }
+			      ]
+			    },
+			    "fact_has_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.continent": {
+			          "Target": {
+			            "Entity": "fact.continent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_continents"
+			        }
+			      ]
+			    },
+			    "fact_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.year": {
+			          "Target": {
+			            "Entity": "fact.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_years"
+			        }
+			      ]
+			    },
+			    "fact_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.value": {
+			          "Target": {
+			            "Entity": "fact.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_values"
+			        }
+			      ]
+			    },
+			    "fact_has_gold_updated_at": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.gold_updated_at": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.gold_updated_at"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_gold_updated_at"
+			        }
+			      ]
+			    },
+			    "geo_has_country_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.country_name": {
+			          "Target": {
+			            "Entity": "geo.country_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.country_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_country_names"
+			        }
+			      ]
+			    },
+			    "geo_has_macro_region_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.macro_region_id": {
+			          "Target": {
+			            "Entity": "geo.macro_region_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.macro_region_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_macro_region_ids"
+			        }
+			      ]
+			    },
+			    "geo_has_macro_region_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.macro_region_name": {
+			          "Target": {
+			            "Entity": "geo.macro_region_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.macro_region_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_macro_region_names"
+			        }
+			      ]
+			    },
+			    "geo_has_sdg_region_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.sdg_region_id": {
+			          "Target": {
+			            "Entity": "geo.sdg_region_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.sdg_region_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_sdg_region_ids"
+			        }
+			      ]
+			    },
+			    "geo_has_sdg_region_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.sdg_region_name": {
+			          "Target": {
+			            "Entity": "geo.sdg_region_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.sdg_region_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_sdg_region_names"
+			        }
+			      ]
+			    },
+			    "geo_has_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.latitude": {
+			          "Target": {
+			            "Entity": "geo.latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_latitudes"
+			        }
+			      ]
+			    },
+			    "geo_has_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.longitude": {
+			          "Target": {
+			            "Entity": "geo.longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_longitudes"
+			        }
+			      ]
+			    },
+			    "geo_has_is_un_state": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.is_un_state": {
+			          "Target": {
+			            "Entity": "geo.is_un_state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.is_un_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_is_un_states"
+			        }
+			      ]
+			    },
+			    "indicator_has_indicator_description": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.indicator_description": {
+			          "Target": {
+			            "Entity": "indicator.indicator_description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
+			              "Role": "indicator.indicator_description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_have_indicator_descriptions"
+			        }
+			      ]
+			    },
+			    "indicator_has_ingested_at": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.ingested_at": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
+			              "Role": "indicator.ingested_at"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_have_ingested_at"
+			        }
+			      ]
+			    },
+			    "tag_has_indicator_id": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        },
+			        "tag.indicator_id": {
+			          "Target": {
+			            "Entity": "tag.indicator_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag"
+			            },
+			            "Object": {
+			              "Role": "tag.indicator_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_have_indicator_ids"
+			        }
+			      ]
+			    },
+			    "tag_has_tag_name": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        },
+			        "tag.tag_name": {
+			          "Target": {
+			            "Entity": "tag.tag_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag"
+			            },
+			            "Object": {
+			              "Role": "tag.tag_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_have_tag_names"
+			        }
+			      ]
+			    },
+			    "tag_has_ingested_at": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        },
+			        "tag.ingested_at": {
+			          "Target": {
+			            "Entity": "tag.ingested_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag"
+			            },
+			            "Object": {
+			              "Role": "tag.ingested_at"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_have_ingested_at"
+			        }
+			      ]
+			    },
+			    "fact_has_geo": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "geo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_geos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "fact"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_facts"
+			        }
+			      ]
+			    },
+			    "fact_has_indicator": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "indicator"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_indicators"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
+			              "Role": "fact"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_have_facts"
+			        }
+			      ]
+			    },
+			    "indicator_has_tag": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
+			              "Role": "tag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_have_tags"
+			        }
+			      ]
+			    },
+			    "tag_has_indicator": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        },
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag"
+			            },
+			            "Object": {
+			              "Role": "indicator"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_have_indicators"
+			        }
+			      ]
+			    },
+			    "fact_gold_updated_at_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact.gold_updated_at": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at"
+			          }
+			        },
+			        "fact.gold_updated_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact.gold_updated_at"
+			            },
+			            "Object": {
+			              "Role": "fact.gold_updated_at.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gold_updated_at_have_gold_updated_at_date_hierarchy"
+			        }
+			      ]
+			    },
+			    "fact_gold_updated_at_date_hierarchy_has_fact_gold_updated_at_year": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact.gold_updated_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at.date_hierarchy"
+			          }
+			        },
+			        "fact.gold_updated_at.year": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact.gold_updated_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "fact.gold_updated_at.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gold_updated_at_date_hierarchy_have_gold_updated_at_year"
+			        }
+			      ]
+			    },
+			    "fact_gold_updated_at_date_hierarchy_has_fact_gold_updated_at_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact.gold_updated_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at.date_hierarchy"
+			          }
+			        },
+			        "fact.gold_updated_at.quarter": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact.gold_updated_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "fact.gold_updated_at.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gold_updated_at_date_hierarchy_have_gold_updated_at_quarter"
+			        }
+			      ]
+			    },
+			    "fact_gold_updated_at_date_hierarchy_has_fact_gold_updated_at_month": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact.gold_updated_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at.date_hierarchy"
+			          }
+			        },
+			        "fact.gold_updated_at.month": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact.gold_updated_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "fact.gold_updated_at.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gold_updated_at_date_hierarchy_have_gold_updated_at_month"
+			        }
+			      ]
+			    },
+			    "fact_gold_updated_at_date_hierarchy_has_fact_gold_updated_at_day": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact.gold_updated_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at.date_hierarchy"
+			          }
+			        },
+			        "fact.gold_updated_at.day": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact.gold_updated_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "fact.gold_updated_at.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gold_updated_at_date_hierarchy_have_gold_updated_at_day"
+			        }
+			      ]
+			    },
+			    "indicator_ingested_at_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator.ingested_at": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at"
+			          }
+			        },
+			        "indicator.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator.ingested_at"
+			            },
+			            "Object": {
+			              "Role": "indicator.ingested_at.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_have_ingested_at_date_hierarchy"
+			        }
+			      ]
+			    },
+			    "indicator_ingested_at_date_hierarchy_has_indicator_ingested_at_year": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at.date_hierarchy"
+			          }
+			        },
+			        "indicator.ingested_at.year": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator.ingested_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "indicator.ingested_at.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_date_hierarchy_have_ingested_at_year"
+			        }
+			      ]
+			    },
+			    "indicator_ingested_at_date_hierarchy_has_indicator_ingested_at_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at.date_hierarchy"
+			          }
+			        },
+			        "indicator.ingested_at.quarter": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator.ingested_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "indicator.ingested_at.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_date_hierarchy_have_ingested_at_quarter"
+			        }
+			      ]
+			    },
+			    "indicator_ingested_at_date_hierarchy_has_indicator_ingested_at_month": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at.date_hierarchy"
+			          }
+			        },
+			        "indicator.ingested_at.month": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator.ingested_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "indicator.ingested_at.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_date_hierarchy_have_ingested_at_month"
+			        }
+			      ]
+			    },
+			    "indicator_ingested_at_date_hierarchy_has_indicator_ingested_at_day": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at.date_hierarchy"
+			          }
+			        },
+			        "indicator.ingested_at.day": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator.ingested_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "indicator.ingested_at.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_date_hierarchy_have_ingested_at_day"
+			        }
+			      ]
+			    },
+			    "tag_ingested_at_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag.ingested_at": {
+			          "Target": {
+			            "Entity": "tag.ingested_at"
+			          }
+			        },
+			        "tag.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tag.ingested_at.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag.ingested_at"
+			            },
+			            "Object": {
+			              "Role": "tag.ingested_at.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_have_ingested_at_date_hierarchy1"
+			        }
+			      ]
+			    },
+			    "tag_ingested_at_date_hierarchy_has_tag_ingested_at_year": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tag.ingested_at.date_hierarchy"
+			          }
+			        },
+			        "tag.ingested_at.year": {
+			          "Target": {
+			            "Entity": "tag.ingested_at.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag.ingested_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "tag.ingested_at.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_date_hierarchy_have_ingested_at_year1"
+			        }
+			      ]
+			    },
+			    "tag_ingested_at_date_hierarchy_has_tag_ingested_at_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tag.ingested_at.date_hierarchy"
+			          }
+			        },
+			        "tag.ingested_at.quarter": {
+			          "Target": {
+			            "Entity": "tag.ingested_at.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag.ingested_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "tag.ingested_at.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_date_hierarchy_have_ingested_at_quarter1"
+			        }
+			      ]
+			    },
+			    "tag_ingested_at_date_hierarchy_has_tag_ingested_at_month": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tag.ingested_at.date_hierarchy"
+			          }
+			        },
+			        "tag.ingested_at.month": {
+			          "Target": {
+			            "Entity": "tag.ingested_at.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag.ingested_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "tag.ingested_at.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_date_hierarchy_have_ingested_at_month1"
+			        }
+			      ]
+			    },
+			    "tag_ingested_at_date_hierarchy_has_tag_ingested_at_day": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag.ingested_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "tag.ingested_at.date_hierarchy"
+			          }
+			        },
+			        "tag.ingested_at.day": {
+			          "Target": {
+			            "Entity": "tag.ingested_at.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag.ingested_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "tag.ingested_at.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ingested_at_date_hierarchy_have_ingested_at_day1"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

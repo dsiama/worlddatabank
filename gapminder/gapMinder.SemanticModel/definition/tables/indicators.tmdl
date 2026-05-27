@@ -1,0 +1,53 @@
+table indicators
+	lineageTag: 34e7dec3-8a11-42b6-8380-dd72c708be25
+
+	column indicator_id
+		dataType: string
+		lineageTag: d34feb95-72df-46f3-9cc3-330552ddefa6
+		summarizeBy: none
+		sourceColumn: indicator_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicator
+		dataType: string
+		lineageTag: ae3b2d7f-41ad-4942-b366-bd87381fa210
+		summarizeBy: none
+		sourceColumn: indicator
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicator_description
+		dataType: string
+		lineageTag: a5f17f85-9aa8-4280-86ee-342b3792dd67
+		summarizeBy: none
+		sourceColumn: indicator_description
+
+		annotation SummarizationSetBy = Automatic
+
+	column _ingested_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 38f7a409-ab0c-4ea7-9991-a93506664443
+		summarizeBy: none
+		sourceColumn: _ingested_at
+
+		variation Variation
+			isDefault
+			relationship: 8fd7a804-799f-4a64-9564-2549470f0a89
+			defaultHierarchy: LocalDateTable_ea1dc20c-ab26-4ac8-895e-855ee0ad48d5.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition indicators = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("brfdwxy6bn3ephuvnez6iqeos4-7yy4p2f7oqdendqxi6zrr757ta.datawarehouse.fabric.microsoft.com", "worldDataBank_lh"),
+				    world_data_gapminder_gapminder_gold_dim_indicators = Source{[Schema="world_data_gapminder",Item="gapminder_gold_dim_indicators"]}[Data],
+				    #"Renamed Columns" = Table.RenameColumns(world_data_gapminder_gapminder_gold_dim_indicators,{{"indicator_name", "indicator"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_ResultType = Table
+

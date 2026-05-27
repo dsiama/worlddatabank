@@ -1,0 +1,55 @@
+table years
+	lineageTag: f0895700-ff91-4419-b9d5-39b445f29c88
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 77eba609-d503-4643-b4ec-0bbba2b9cb1f
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_id
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 31f1d225-d54f-4a14-9e86-fbe5a4bb84b7
+		summarizeBy: none
+		sourceColumn: date_id
+
+		variation Variation
+			isDefault
+			relationship: e0e73174-7d2c-4149-bd85-dbb64064286a
+			defaultHierarchy: LocalDateTable_f2e8e0d2-9e3e-481a-9a26-cad984b899a0.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column period_name
+		dataType: string
+		lineageTag: 0816cc4c-002b-474a-a2ed-ba5d3570ab06
+		summarizeBy: none
+		sourceColumn: period_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column year_label
+		dataType: string
+		lineageTag: a760895d-a118-433b-ab29-0420c50b324e
+		summarizeBy: none
+		sourceColumn: year_label
+
+		annotation SummarizationSetBy = Automatic
+
+	partition years = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("brfdwxy6bn3ephuvnez6iqeos4-7yy4p2f7oqdendqxi6zrr757ta.datawarehouse.fabric.microsoft.com", "worldDataBank_lh"),
+				    world_data_gapminder_gapminder_gold_dim_date = Source{[Schema="world_data_gapminder",Item="gapminder_gold_dim_date"]}[Data]
+				in
+				    world_data_gapminder_gapminder_gold_dim_date
+
+	annotation PBI_ResultType = Table
+

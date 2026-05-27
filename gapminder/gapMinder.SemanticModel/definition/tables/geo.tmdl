@@ -1,0 +1,129 @@
+table geo
+	lineageTag: 7c2fbbdb-fd52-459e-98fa-8966f6bbd44c
+
+	column geo_id
+		dataType: string
+		lineageTag: ce8fdba4-9850-428b-b59f-cda96b641cd8
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column country_name
+		dataType: string
+		lineageTag: faed81f4-9b96-4647-8f6a-a7dcd62ba007
+		summarizeBy: none
+		sourceColumn: country_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column macro_region_id
+		dataType: string
+		lineageTag: 2ba343ef-38d9-42e0-ab63-c2325154f6dd
+		summarizeBy: none
+		sourceColumn: macro_region_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column macro_region_name
+		dataType: string
+		lineageTag: 854c97a8-9747-4f73-aec3-c058e048a473
+		summarizeBy: none
+		sourceColumn: macro_region_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column sdg_region_id
+		dataType: string
+		lineageTag: e52bfd3e-a900-439c-9d1b-e637bf5db4b5
+		summarizeBy: none
+		sourceColumn: sdg_region_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column sdg_region_name
+		dataType: string
+		lineageTag: 89ee0c72-1aa8-47eb-be4a-b23fea6c628d
+		summarizeBy: none
+		sourceColumn: sdg_region_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: 2253dea5-b030-4c69-ba4a-2a7d00d5b796
+		summarizeBy: none
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: 7153fbc0-5c74-4222-b74c-0639d16dca56
+		summarizeBy: none
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column is_un_state
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 79a158bf-71ed-4205-a831-26b564837af4
+		summarizeBy: none
+		sourceColumn: is_un_state
+
+		annotation SummarizationSetBy = Automatic
+
+	column country_name_mapa
+		dataType: string
+		lineageTag: 2e02a303-d110-4538-b0e0-1139e4f28f6e
+		summarizeBy: none
+		sourceColumn: country_name_mapa
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_id_upper
+		dataType: string
+		lineageTag: edff2c0f-3751-4233-af95-7db01d164829
+		summarizeBy: none
+		sourceColumn: geo_id_upper
+
+		annotation SummarizationSetBy = Automatic
+
+	partition geo = m
+		mode: import
+		source = ```
+				let
+				    // 1. Ligação ao SQL Endpoint do Microsoft Fabric
+				    Source = Sql.Database("brfdwxy6bn3ephuvnez6iqeos4-7yy4p2f7oqdendqxi6zrr757ta.datawarehouse.fabric.microsoft.com", "worldDataBank_lh"),
+				    world_data_gapminder_gapminder_gold_dim_geo = Source{[Schema="world_data_gapminder", Item="gapminder_gold_dim_geo"]}[Data],
+				
+				    // 2. Criação da coluna de nomes corrigidos para o Bing Maps (Congo, Itália e Vaticano)
+				    #"Geografia Ajustada para Mapa" = Table.AddColumn(world_data_gapminder_gapminder_gold_dim_geo, "country_name_mapa", each 
+				        if Text.Upper([geo_id]) = "COD" or [country_name] = "Democratic Republic of Congo" then 
+				            "Democratic Republic of the Congo" 
+				        else if Text.Upper([geo_id]) = "ITA" or [country_name] = "Italy" then 
+				            "Italy"
+				        else if Text.Upper([geo_id]) = "VA" or [country_name] = "Holy See" then 
+				            "Vatican City"
+				        else 
+				            [country_name], 
+				        type text
+				    ),
+				
+				    // 3. Criação da coluna com o Código ISO em Maiúsculas (Fulcral para o Shape Map)
+				    #"ID em Maiúsculas" = Table.AddColumn(#"Geografia Ajustada para Mapa", "geo_id_upper", each Text.Upper([geo_id]), type text)
+				
+				in
+				    // Retorna a tabela final com todas as colunas originais + as duas novas colunas de suporte ao mapa
+				    #"ID em Maiúsculas"
+				```
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+
