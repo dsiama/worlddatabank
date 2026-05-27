@@ -2,7 +2,7 @@
 
 Documentação da metodologia de pipelines de dados em Microsoft Fabric e dos case studies implementados.
 
-> **Princípios:** [Thin Pipelines, Fat Notebooks — Princípios Arquitecturais](./docs/metodologia/principios.md)
+> **Princípios:** [Thin Pipelines, Fat Notebooks — Princípios Arquitecturais](./metodologia/principios.md)
 
 ---
 
