@@ -304,7 +304,8 @@ def process_gapminder_silver_dim_geo():
         F.col("world_6region").alias("detail_region"),
         F.col("latitude").cast("double"),
         F.col("longitude").cast("double"),
-        F.col("un_state").alias("is_un_state")
+        F.col("un_state").alias("is_un_state"),
+        F.col("main_religion_2008").alias("main_religion_2008")
     ).distinct()
     
     # Escrita Silver via ABFSS

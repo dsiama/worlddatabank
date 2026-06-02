@@ -280,6 +280,9 @@ cultureInfo en-US
 			        }
 			      },
 			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
 			      "Terms": [
 			        {
 			          "year": {
@@ -2097,7 +2100,7 @@ cultureInfo en-US
 			      ],
 			      "NameType": "Identifier"
 			    },
-			    "indicator.indicator_name": {
+			    "indicator.indicator": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "indicators",
@@ -2107,61 +2110,113 @@ cultureInfo en-US
 			      "State": "Generated",
 			      "Terms": [
 			        {
+			          "indicator": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
 			          "indicator name": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "name": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "indicator_name": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        },
-			        {
-			          "indicator nickname": {
+			          "pointer": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.727
+			            "Weight": 0.491
 			          }
 			        },
 			        {
-			          "indicator title": {
+			          "needle": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.727
+			            "Weight": 0.476
 			          }
 			        },
 			        {
-			          "indicator label": {
+			          "gage": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.727
+			            "Weight": 0.476
 			          }
 			        },
 			        {
-			          "indicator tag": {
+			          "gauge": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.727
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "meter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "marker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "sign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "guide": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
 			          }
 			        }
 			      ],
@@ -2521,7 +2576,8 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "tag": {
-			            "State": "Generated"
+			            "State": "Generated",
+			            "Weight": 0.87
 			          }
 			        },
 			        {
@@ -2532,16 +2588,6 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.491
-			          }
-			        },
-			        {
-			          "label": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.476
 			          }
 			        },
 			        {
@@ -2659,7 +2705,7 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "tag.tag_name": {
+			    "tag.tag": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "tags",
@@ -2669,55 +2715,68 @@ cultureInfo en-US
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "tag name": {
+			          "tag": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "tag_name": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.99
-			          }
-			        },
-			        {
-			          "tag nickname": {
+			          "device": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.727
+			            "Weight": 0.491
 			          }
 			        },
 			        {
-			          "tag title": {
+			          "ticket": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.727
+			            "Weight": 0.476
 			          }
 			        },
 			        {
-			          "tag label": {
+			          "tab": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.727
+			            "Weight": 0.476
 			          }
 			        },
 			        {
-			          "tag tag": {
+			          "docket": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.727
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
 			          }
 			        }
 			      ]
@@ -2937,17 +2996,485 @@ cultureInfo en-US
 			      ],
 			      "SemanticType": "Time"
 			    },
-			    "pipeline_logs.pipeline_id": {
+			    "fact.PIB_per_capita": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "pipeline_logs",
-			          "ConceptualProperty": "pipeline_id"
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "PIB_per_Capita"
 			        }
 			      },
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "pipeline": {
+			          "PIB per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PIB_per_Capita": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fact.year_rank_index": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "year_rank_index"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year rank index": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year_rank_index": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "index": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rank index": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "yr rank index": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year rank directory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "year rank catalogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "year rank catalog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "year rank guide": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "year rank file": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "year rank key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "year rank table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "rank directory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "rank catalogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "fact.esperanca_vida_F": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "Esperanca_Vida_F"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "esperanca vida F": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Esperanca_Vida_F": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fact.populacao_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "Populacao Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "populacao total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "populacao aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "populacao overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fact.uder_five_mortality": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "uder_five_mortality"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "uder five mortality": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "uder_five_mortality": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "uder five humanity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "uder five transience": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "uder five impermanence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "uder five death": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "fact.density": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "facts",
+			          "ConceptualProperty": "density"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "density": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "compactness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "concentration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "solidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "concreteness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "thickness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stupidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "denseness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "slowness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "geo.country_name_mapa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "country_name_mapa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country name mapa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country_name_mapa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "nation name mapa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "location name mapa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "country nickname mapa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "country title mapa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "country label mapa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "country tag mapa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "country": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -2958,628 +3485,1217 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "pipeline_logs.lastts": {
+			    "geo.geo_id_upper": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "pipeline_logs",
-			          "ConceptualProperty": "lastTS"
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "geo_id_upper"
 			        }
 			      },
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "last log": {
+			          "geo id upper": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "geo_id_upper": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "upper": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "id upper": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "geo identification upper": {
+			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
+			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.9
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "geo identity upper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "geo identifier upper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identification upper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity upper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier upper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "geo credential upper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "credential upper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "better": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "superior": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "geo.main_religion_2008": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "geo",
+			          "ConceptualProperty": "main_religion_2008"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "main religion 2008": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "main_religion_2008": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "religion 2008": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "year.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years",
+			          "ConceptualProperty": "year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "year.date_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years",
+			          "ConceptualProperty": "date_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "date identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "moment id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "year.date_id.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years",
+			          "VariationSource": "date_id",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hierarchy id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date hierarchy identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "date hierarchy identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "date hierarchy identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarchy identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hierarchy identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hierarchy identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date hierarchy credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarchy credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "moment hierarchy id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "year.date_id.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years",
+			          "VariationSource": "date_id",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date id year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date id yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "year identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "year identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "year identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "year credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "moment id year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "date identification year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "date identity year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "year.date_id.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years",
+			          "VariationSource": "date_id",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date id quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date id qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "id qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "quarter identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "quarter identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "quarter identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "quarter credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "qtr id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.667
+			          }
+			        },
+			        {
+			          "moment id quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "date identification quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "year.date_id.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years",
+			          "VariationSource": "date_id",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date id month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date id mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "month identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "month identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "month identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "month credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "moment id month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "date identification month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "date identity month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "year.date_id.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years",
+			          "VariationSource": "date_id",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date id day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "day identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "day identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "day identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "day credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "moment id day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "date identification day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "date identity day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "date identifier day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identification day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "year.period_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years",
+			          "ConceptualProperty": "period_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "period name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "period_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "period": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "period nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "period title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "period label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "period tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "year.year_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "years",
+			          "ConceptualProperty": "year_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year label": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year_label": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "year sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "year tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "year decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yr label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "year name tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        },
+			        {
+			          "name tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.571
 			          }
 			        }
 			      ]
 			    }
 			  },
 			  "Relationships": {
-			    "geo_is_named_geo_id": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.geo_id": {
-			          "Target": {
-			            "Entity": "geo.geo_id"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Name": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Name": {
-			              "Role": "geo.geo_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geo_ids_are_names_IDs_of_geos"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Object": {
-			              "Role": "geo.geo_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_have_geo_ids"
-			        }
-			      ]
-			    },
-			    "indicator_is_named_indicator_id": {
-			      "Binding": {
-			        "ConceptualEntity": "indicators"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "indicator": {
-			          "Target": {
-			            "Entity": "indicator"
-			          }
-			        },
-			        "indicator.indicator_id": {
-			          "Target": {
-			            "Entity": "indicator.indicator_id"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Name": {
-			            "Subject": {
-			              "Role": "indicator"
-			            },
-			            "Name": {
-			              "Role": "indicator.indicator_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "indicator_ids_are_names_IDs_of_indicators"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "indicator"
-			            },
-			            "Object": {
-			              "Role": "indicator.indicator_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "indicators_have_indicator_ids"
-			        }
-			      ]
-			    },
-			    "indicator_is_named_indicator_name": {
-			      "Binding": {
-			        "ConceptualEntity": "indicators"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "indicator": {
-			          "Target": {
-			            "Entity": "indicator"
-			          }
-			        },
-			        "indicator.indicator_name": {
-			          "Target": {
-			            "Entity": "indicator.indicator_name"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Name": {
-			            "Subject": {
-			              "Role": "indicator"
-			            },
-			            "Name": {
-			              "Role": "indicator.indicator_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "indicator_names_are_names_IDs_of_indicators"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "indicator"
-			            },
-			            "Object": {
-			              "Role": "indicator.indicator_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "indicators_have_indicator_names"
-			        }
-			      ]
-			    },
-			    "indicator_indicate": {
-			      "Binding": {
-			        "ConceptualEntity": "indicators"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "indicator": {
-			          "Target": {
-			            "Entity": "indicator"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Verb": {
-			            "Subject": {
-			              "Role": "indicator"
-			            },
-			            "Verbs": [
-			              {
-			                "indicate": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ]
-			          },
-			          "State": "Generated",
-			          "Weight": 0.75,
-			          "ID": "indicators_indicate"
-			        }
-			      ]
-			    },
-			    "fact_is_updated_on_gold_updated_at": {
-			      "Binding": {
-			        "ConceptualEntity": "facts"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "fact": {
-			          "Target": {
-			            "Entity": "fact"
-			          }
-			        },
-			        "fact.gold_updated_at": {
-			          "Target": {
-			            "Entity": "fact.gold_updated_at"
-			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "When": {
-			          "Role": "fact.gold_updated_at"
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Verb": {
-			            "Verbs": [
-			              {
-			                "update": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "fact"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.9,
-			          "ID": "facts_are_updated_on_gold_updated_at"
-			        }
-			      ]
-			    },
-			    "indicator_is_ingested_on_ingested_at": {
-			      "Binding": {
-			        "ConceptualEntity": "indicators"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "indicator": {
-			          "Target": {
-			            "Entity": "indicator"
-			          }
-			        },
-			        "indicator.ingested_at": {
-			          "Target": {
-			            "Entity": "indicator.ingested_at"
-			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "When": {
-			          "Role": "indicator.ingested_at"
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Verb": {
-			            "Verbs": [
-			              {
-			                "ingest": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "indicator"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.9,
-			          "ID": "indicators_are_ingested_on_ingested_at"
-			        }
-			      ]
-			    },
-			    "tag_is_ingested_on_ingested_at": {
-			      "Binding": {
-			        "ConceptualEntity": "tags"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "tag": {
-			          "Target": {
-			            "Entity": "tag"
-			          }
-			        },
-			        "tag.ingested_at": {
-			          "Target": {
-			            "Entity": "tag.ingested_at"
-			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "When": {
-			          "Role": "tag.ingested_at"
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Verb": {
-			            "Verbs": [
-			              {
-			                "ingest": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "tag"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.9,
-			          "ID": "tags_are_ingested_on_ingested_at"
-			        }
-			      ]
-			    },
-			    "fact_in_continent": {
-			      "Binding": {
-			        "ConceptualEntity": "facts"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "fact": {
-			          "Target": {
-			            "Entity": "fact"
-			          }
-			        },
-			        "fact.continent": {
-			          "Target": {
-			            "Entity": "fact.continent"
-			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "Where": {
-			          "Role": "fact.continent"
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "fact"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "fact.continent"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "facts_are_in_continents"
-			        }
-			      ]
-			    },
-			    "geo_in_country_name": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.country_name": {
-			          "Target": {
-			            "Entity": "geo.country_name"
-			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "Where": {
-			          "Role": "geo.country_name"
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "geo.country_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_are_in_country_names"
-			        }
-			      ]
-			    },
-			    "geo_in_macro_region_id": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.macro_region_id": {
-			          "Target": {
-			            "Entity": "geo.macro_region_id"
-			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "Where": {
-			          "Role": "geo.macro_region_id"
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "geo.macro_region_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_are_in_macro_region_ids"
-			        }
-			      ]
-			    },
-			    "geo_in_macro_region_name": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.macro_region_name": {
-			          "Target": {
-			            "Entity": "geo.macro_region_name"
-			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "Where": {
-			          "Role": "geo.macro_region_name"
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "geo.macro_region_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_are_in_macro_region_names"
-			        }
-			      ]
-			    },
-			    "geo_in_sdg_region_id": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.sdg_region_id": {
-			          "Target": {
-			            "Entity": "geo.sdg_region_id"
-			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "Where": {
-			          "Role": "geo.sdg_region_id"
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "geo.sdg_region_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_are_in_sdg_region_ids"
-			        }
-			      ]
-			    },
-			    "geo_in_sdg_region_name": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.sdg_region_name": {
-			          "Target": {
-			            "Entity": "geo.sdg_region_name"
-			          }
-			        }
-			      },
-			      "SemanticSlots": {
-			        "Where": {
-			          "Role": "geo.sdg_region_name"
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "geo.sdg_region_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_are_in_sdg_region_names"
-			        }
-			      ]
-			    },
-			    "fact_has_continent": {
-			      "Binding": {
-			        "ConceptualEntity": "facts"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "fact": {
-			          "Target": {
-			            "Entity": "fact"
-			          }
-			        },
-			        "fact.continent": {
-			          "Target": {
-			            "Entity": "fact.continent"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "fact"
-			            },
-			            "Object": {
-			              "Role": "fact.continent"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "facts_have_continents"
-			        }
-			      ]
-			    },
 			    "fact_has_year": {
 			      "Binding": {
 			        "ConceptualEntity": "facts"
@@ -3591,9 +4707,9 @@ cultureInfo en-US
 			            "Entity": "fact"
 			          }
 			        },
-			        "fact.year": {
+			        "year": {
 			          "Target": {
-			            "Entity": "fact.year"
+			            "Entity": "year"
 			          }
 			        }
 			      },
@@ -3604,16 +4720,29 @@ cultureInfo en-US
 			              "Role": "fact"
 			            },
 			            "Object": {
-			              "Role": "fact.year"
+			              "Role": "year"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "facts_have_years"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "fact"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_facts"
 			        }
 			      ]
 			    },
-			    "fact_has_value": {
+			    "fact_has_indicator": {
 			      "Binding": {
 			        "ConceptualEntity": "facts"
 			      },
@@ -3624,9 +4753,9 @@ cultureInfo en-US
 			            "Entity": "fact"
 			          }
 			        },
-			        "fact.value": {
+			        "indicator": {
 			          "Target": {
-			            "Entity": "fact.value"
+			            "Entity": "indicator"
 			          }
 			        }
 			      },
@@ -3637,474 +4766,25 @@ cultureInfo en-US
 			              "Role": "fact"
 			            },
 			            "Object": {
-			              "Role": "fact.value"
+			              "Role": "indicator"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "facts_have_values"
-			        }
-			      ]
-			    },
-			    "fact_has_gold_updated_at": {
-			      "Binding": {
-			        "ConceptualEntity": "facts"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "fact": {
-			          "Target": {
-			            "Entity": "fact"
-			          }
+			          "ID": "facts_have_indicators"
 			        },
-			        "fact.gold_updated_at": {
-			          "Target": {
-			            "Entity": "fact.gold_updated_at"
-			          }
-			        }
-			      },
-			      "Phrasings": [
 			        {
 			          "Attribute": {
 			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
 			              "Role": "fact"
-			            },
-			            "Object": {
-			              "Role": "fact.gold_updated_at"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "facts_have_gold_updated_at"
-			        }
-			      ]
-			    },
-			    "geo_has_country_name": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.country_name": {
-			          "Target": {
-			            "Entity": "geo.country_name"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Object": {
-			              "Role": "geo.country_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_have_country_names"
-			        }
-			      ]
-			    },
-			    "geo_has_macro_region_id": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.macro_region_id": {
-			          "Target": {
-			            "Entity": "geo.macro_region_id"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Object": {
-			              "Role": "geo.macro_region_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_have_macro_region_ids"
-			        }
-			      ]
-			    },
-			    "geo_has_macro_region_name": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.macro_region_name": {
-			          "Target": {
-			            "Entity": "geo.macro_region_name"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Object": {
-			              "Role": "geo.macro_region_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_have_macro_region_names"
-			        }
-			      ]
-			    },
-			    "geo_has_sdg_region_id": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.sdg_region_id": {
-			          "Target": {
-			            "Entity": "geo.sdg_region_id"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Object": {
-			              "Role": "geo.sdg_region_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_have_sdg_region_ids"
-			        }
-			      ]
-			    },
-			    "geo_has_sdg_region_name": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.sdg_region_name": {
-			          "Target": {
-			            "Entity": "geo.sdg_region_name"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Object": {
-			              "Role": "geo.sdg_region_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_have_sdg_region_names"
-			        }
-			      ]
-			    },
-			    "geo_has_latitude": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.latitude": {
-			          "Target": {
-			            "Entity": "geo.latitude"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Object": {
-			              "Role": "geo.latitude"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_have_latitudes"
-			        }
-			      ]
-			    },
-			    "geo_has_longitude": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.longitude": {
-			          "Target": {
-			            "Entity": "geo.longitude"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Object": {
-			              "Role": "geo.longitude"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_have_longitudes"
-			        }
-			      ]
-			    },
-			    "geo_has_is_un_state": {
-			      "Binding": {
-			        "ConceptualEntity": "geo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "geo": {
-			          "Target": {
-			            "Entity": "geo"
-			          }
-			        },
-			        "geo.is_un_state": {
-			          "Target": {
-			            "Entity": "geo.is_un_state"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "geo"
-			            },
-			            "Object": {
-			              "Role": "geo.is_un_state"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "geos_have_is_un_states"
-			        }
-			      ]
-			    },
-			    "indicator_has_indicator_description": {
-			      "Binding": {
-			        "ConceptualEntity": "indicators"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "indicator": {
-			          "Target": {
-			            "Entity": "indicator"
-			          }
-			        },
-			        "indicator.indicator_description": {
-			          "Target": {
-			            "Entity": "indicator.indicator_description"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "indicator"
-			            },
-			            "Object": {
-			              "Role": "indicator.indicator_description"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "indicators_have_indicator_descriptions"
-			        }
-			      ]
-			    },
-			    "indicator_has_ingested_at": {
-			      "Binding": {
-			        "ConceptualEntity": "indicators"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "indicator": {
-			          "Target": {
-			            "Entity": "indicator"
-			          }
-			        },
-			        "indicator.ingested_at": {
-			          "Target": {
-			            "Entity": "indicator.ingested_at"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "indicator"
-			            },
-			            "Object": {
-			              "Role": "indicator.ingested_at"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "indicators_have_ingested_at"
-			        }
-			      ]
-			    },
-			    "tag_has_indicator_id": {
-			      "Binding": {
-			        "ConceptualEntity": "tags"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "tag": {
-			          "Target": {
-			            "Entity": "tag"
-			          }
-			        },
-			        "tag.indicator_id": {
-			          "Target": {
-			            "Entity": "tag.indicator_id"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "tag"
-			            },
-			            "Object": {
-			              "Role": "tag.indicator_id"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "tags_have_indicator_ids"
-			        }
-			      ]
-			    },
-			    "tag_has_tag_name": {
-			      "Binding": {
-			        "ConceptualEntity": "tags"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "tag": {
-			          "Target": {
-			            "Entity": "tag"
-			          }
-			        },
-			        "tag.tag_name": {
-			          "Target": {
-			            "Entity": "tag.tag_name"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "tag"
-			            },
-			            "Object": {
-			              "Role": "tag.tag_name"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "tags_have_tag_names"
-			        }
-			      ]
-			    },
-			    "tag_has_ingested_at": {
-			      "Binding": {
-			        "ConceptualEntity": "tags"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "tag": {
-			          "Target": {
-			            "Entity": "tag"
-			          }
-			        },
-			        "tag.ingested_at": {
-			          "Target": {
-			            "Entity": "tag.ingested_at"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "tag"
-			            },
-			            "Object": {
-			              "Role": "tag.ingested_at"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "tags_have_ingested_at"
+			          "ID": "indicators_have_facts"
 			        }
 			      ]
 			    },
@@ -4154,7 +4834,238 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "fact_has_indicator": {
+			    "year_has_year_label": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year": {
+			          "Target": {
+			            "Entity": "year"
+			          }
+			        },
+			        "year.year_label": {
+			          "Target": {
+			            "Entity": "year.year_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "year.year_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_year_labels"
+			        }
+			      ]
+			    },
+			    "year_has_period_name": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year": {
+			          "Target": {
+			            "Entity": "year"
+			          }
+			        },
+			        "year.period_name": {
+			          "Target": {
+			            "Entity": "year.period_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "year.period_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_period_names"
+			        }
+			      ]
+			    },
+			    "year_has_date_id": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year": {
+			          "Target": {
+			            "Entity": "year"
+			          }
+			        },
+			        "year.date_id": {
+			          "Target": {
+			            "Entity": "year.date_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "year.date_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_date_ids"
+			        }
+			      ]
+			    },
+			    "year_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year": {
+			          "Target": {
+			            "Entity": "year"
+			          }
+			        },
+			        "year.year": {
+			          "Target": {
+			            "Entity": "year.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "year.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_years"
+			        }
+			      ]
+			    },
+			    "geo_has_main_religion_2008": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.main_religion_2008": {
+			          "Target": {
+			            "Entity": "geo.main_religion_2008"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.main_religion_2008"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_main_religion_2008"
+			        }
+			      ]
+			    },
+			    "geo_has_geo_id_upper": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.geo_id_upper": {
+			          "Target": {
+			            "Entity": "geo.geo_id_upper"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.geo_id_upper"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_geo_id_uppers"
+			        }
+			      ]
+			    },
+			    "geo_has_country_name_mapa": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.country_name_mapa": {
+			          "Target": {
+			            "Entity": "geo.country_name_mapa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.country_name_mapa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_country_name_mapas"
+			        }
+			      ]
+			    },
+			    "fact_has_density": {
 			      "Binding": {
 			        "ConceptualEntity": "facts"
 			      },
@@ -4165,9 +5076,9 @@ cultureInfo en-US
 			            "Entity": "fact"
 			          }
 			        },
-			        "indicator": {
+			        "fact.density": {
 			          "Target": {
-			            "Entity": "indicator"
+			            "Entity": "fact.density"
 			          }
 			        }
 			      },
@@ -4178,25 +5089,1316 @@ cultureInfo en-US
 			              "Role": "fact"
 			            },
 			            "Object": {
-			              "Role": "indicator"
+			              "Role": "fact.density"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "facts_have_indicators"
+			          "ID": "facts_have_density"
+			        }
+			      ]
+			    },
+			    "fact_has_uder_five_mortality": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
 			        },
+			        "fact.uder_five_mortality": {
+			          "Target": {
+			            "Entity": "fact.uder_five_mortality"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.uder_five_mortality"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_uder_five_mortality"
+			        }
+			      ]
+			    },
+			    "fact_has_populacao_total": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.populacao_total": {
+			          "Target": {
+			            "Entity": "fact.populacao_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.populacao_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_populacao_total"
+			        }
+			      ]
+			    },
+			    "fact_has_esperanca_vida_F": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.esperanca_vida_F": {
+			          "Target": {
+			            "Entity": "fact.esperanca_vida_F"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.esperanca_vida_F"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_esperanca_vida_F"
+			        }
+			      ]
+			    },
+			    "fact_has_year_rank_index": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.year_rank_index": {
+			          "Target": {
+			            "Entity": "fact.year_rank_index"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.year_rank_index"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_year_rank_indices"
+			        }
+			      ]
+			    },
+			    "fact_has_PIB_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.PIB_per_capita": {
+			          "Target": {
+			            "Entity": "fact.PIB_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.PIB_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_PIB_per_capita"
+			        }
+			      ]
+			    },
+			    "tag_has_ingested_at": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        },
+			        "tag.ingested_at": {
+			          "Target": {
+			            "Entity": "tag.ingested_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag"
+			            },
+			            "Object": {
+			              "Role": "tag.ingested_at"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_have_ingested_at"
+			        }
+			      ]
+			    },
+			    "tag_has_tag": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        },
+			        "tag.tag": {
+			          "Target": {
+			            "Entity": "tag.tag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag"
+			            },
+			            "Object": {
+			              "Role": "tag.tag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_have_tags"
+			        }
+			      ]
+			    },
+			    "tag_has_indicator_id": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        },
+			        "tag.indicator_id": {
+			          "Target": {
+			            "Entity": "tag.indicator_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tag"
+			            },
+			            "Object": {
+			              "Role": "tag.indicator_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_have_indicator_ids"
+			        }
+			      ]
+			    },
+			    "indicator_has_ingested_at": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.ingested_at": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
 			        {
 			          "Attribute": {
 			            "Subject": {
 			              "Role": "indicator"
 			            },
 			            "Object": {
-			              "Role": "fact"
+			              "Role": "indicator.ingested_at"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "indicators_have_facts"
+			          "ID": "indicators_have_ingested_at"
+			        }
+			      ]
+			    },
+			    "indicator_has_indicator_description": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.indicator_description": {
+			          "Target": {
+			            "Entity": "indicator.indicator_description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
+			              "Role": "indicator.indicator_description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_have_indicator_descriptions"
+			        }
+			      ]
+			    },
+			    "indicator_has_indicator": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.indicator": {
+			          "Target": {
+			            "Entity": "indicator.indicator"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
+			              "Role": "indicator.indicator"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_have_indicators"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Name": {
+			              "Role": "indicator.indicator"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_are_names_IDs_of_indicators"
+			        }
+			      ]
+			    },
+			    "indicator_has_indicator_id": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.indicator_id": {
+			          "Target": {
+			            "Entity": "indicator.indicator_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Object": {
+			              "Role": "indicator.indicator_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicators_have_indicator_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Name": {
+			              "Role": "indicator.indicator_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicator_ids_are_names_IDs_of_indicators"
+			        }
+			      ]
+			    },
+			    "geo_has_is_un_state": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.is_un_state": {
+			          "Target": {
+			            "Entity": "geo.is_un_state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.is_un_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_is_un_states"
+			        }
+			      ]
+			    },
+			    "geo_has_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.longitude": {
+			          "Target": {
+			            "Entity": "geo.longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_longitudes"
+			        }
+			      ]
+			    },
+			    "geo_has_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.latitude": {
+			          "Target": {
+			            "Entity": "geo.latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_latitudes"
+			        }
+			      ]
+			    },
+			    "geo_has_sdg_region_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.sdg_region_name": {
+			          "Target": {
+			            "Entity": "geo.sdg_region_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.sdg_region_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_sdg_region_names"
+			        }
+			      ]
+			    },
+			    "geo_has_sdg_region_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.sdg_region_id": {
+			          "Target": {
+			            "Entity": "geo.sdg_region_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.sdg_region_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_sdg_region_ids"
+			        }
+			      ]
+			    },
+			    "geo_has_macro_region_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.macro_region_name": {
+			          "Target": {
+			            "Entity": "geo.macro_region_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.macro_region_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_macro_region_names"
+			        }
+			      ]
+			    },
+			    "geo_has_macro_region_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.macro_region_id": {
+			          "Target": {
+			            "Entity": "geo.macro_region_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.macro_region_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_macro_region_ids"
+			        }
+			      ]
+			    },
+			    "geo_has_country_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.country_name": {
+			          "Target": {
+			            "Entity": "geo.country_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.country_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_country_names"
+			        }
+			      ]
+			    },
+			    "geo_has_geo_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.geo_id": {
+			          "Target": {
+			            "Entity": "geo.geo_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Object": {
+			              "Role": "geo.geo_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_have_geo_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Name": {
+			              "Role": "geo.geo_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geo_ids_are_names_IDs_of_geos"
+			        }
+			      ]
+			    },
+			    "fact_has_gold_updated_at": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.gold_updated_at": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.gold_updated_at"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_gold_updated_at"
+			        }
+			      ]
+			    },
+			    "fact_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.value": {
+			          "Target": {
+			            "Entity": "fact.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_values"
+			        }
+			      ]
+			    },
+			    "fact_has_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.continent": {
+			          "Target": {
+			            "Entity": "fact.continent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Object": {
+			              "Role": "fact.continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_have_continents"
+			        }
+			      ]
+			    },
+			    "geo_in_country_name_mapa": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.country_name_mapa": {
+			          "Target": {
+			            "Entity": "geo.country_name_mapa"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.country_name_mapa"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.country_name_mapa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_country_name_mapas"
+			        }
+			      ]
+			    },
+			    "geo_in_sdg_region_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.sdg_region_name": {
+			          "Target": {
+			            "Entity": "geo.sdg_region_name"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.sdg_region_name"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.sdg_region_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_sdg_region_names"
+			        }
+			      ]
+			    },
+			    "geo_in_sdg_region_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.sdg_region_id": {
+			          "Target": {
+			            "Entity": "geo.sdg_region_id"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.sdg_region_id"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.sdg_region_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_sdg_region_ids"
+			        }
+			      ]
+			    },
+			    "geo_in_macro_region_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.macro_region_name": {
+			          "Target": {
+			            "Entity": "geo.macro_region_name"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.macro_region_name"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.macro_region_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_macro_region_names"
+			        }
+			      ]
+			    },
+			    "geo_in_macro_region_id": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.macro_region_id": {
+			          "Target": {
+			            "Entity": "geo.macro_region_id"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.macro_region_id"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.macro_region_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_macro_region_ids"
+			        }
+			      ]
+			    },
+			    "geo_in_country_name": {
+			      "Binding": {
+			        "ConceptualEntity": "geo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "geo": {
+			          "Target": {
+			            "Entity": "geo"
+			          }
+			        },
+			        "geo.country_name": {
+			          "Target": {
+			            "Entity": "geo.country_name"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "geo.country_name"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "geo"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "geo.country_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "geos_are_in_country_names"
+			        }
+			      ]
+			    },
+			    "fact_in_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.continent": {
+			          "Target": {
+			            "Entity": "fact.continent"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "fact.continent"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fact"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fact.continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "facts_are_in_continents"
+			        }
+			      ]
+			    },
+			    "tag_is_ingested_on_ingested_at": {
+			      "Binding": {
+			        "ConceptualEntity": "tags"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tag": {
+			          "Target": {
+			            "Entity": "tag"
+			          }
+			        },
+			        "tag.ingested_at": {
+			          "Target": {
+			            "Entity": "tag.ingested_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "tag.ingested_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "ingest": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "tag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "tags_are_ingested_on_ingested_at"
+			        }
+			      ]
+			    },
+			    "indicator_is_ingested_on_ingested_at": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        },
+			        "indicator.ingested_at": {
+			          "Target": {
+			            "Entity": "indicator.ingested_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "indicator.ingested_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "ingest": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "indicator"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "indicators_are_ingested_on_ingested_at"
+			        }
+			      ]
+			    },
+			    "fact_is_updated_on_gold_updated_at": {
+			      "Binding": {
+			        "ConceptualEntity": "facts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact": {
+			          "Target": {
+			            "Entity": "fact"
+			          }
+			        },
+			        "fact.gold_updated_at": {
+			          "Target": {
+			            "Entity": "fact.gold_updated_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "fact.gold_updated_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "update": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fact"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "facts_are_updated_on_gold_updated_at"
+			        }
+			      ]
+			    },
+			    "indicator_indicate": {
+			      "Binding": {
+			        "ConceptualEntity": "indicators"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicator": {
+			          "Target": {
+			            "Entity": "indicator"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "indicator"
+			            },
+			            "Verbs": [
+			              {
+			                "indicate": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "indicators_indicate"
 			        }
 			      ]
 			    },
@@ -4758,6 +6960,369 @@ cultureInfo en-US
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "ingested_at_date_hierarchy_have_ingested_at_day1"
+			        }
+			      ]
+			    },
+			    "year_date_id_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date_id": {
+			          "Target": {
+			            "Entity": "year.date_id"
+			          }
+			        },
+			        "year.date_id.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date_id.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_ids_have_date_hierarchy_ids"
+			        }
+			      ]
+			    },
+			    "year_date_id_date_hierarchy_has_year_date_id_year": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date_id.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date_id.date_hierarchy"
+			          }
+			        },
+			        "year.date_id.year": {
+			          "Target": {
+			            "Entity": "year.date_id.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_ids_have_year_ids"
+			        }
+			      ]
+			    },
+			    "year_date_id_date_hierarchy_has_year_date_id_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date_id.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date_id.date_hierarchy"
+			          }
+			        },
+			        "year.date_id.quarter": {
+			          "Target": {
+			            "Entity": "year.date_id.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_ids_have_quarter_ids"
+			        }
+			      ]
+			    },
+			    "year_date_id_date_hierarchy_has_year_date_id_month": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date_id.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date_id.date_hierarchy"
+			          }
+			        },
+			        "year.date_id.month": {
+			          "Target": {
+			            "Entity": "year.date_id.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_ids_have_month_ids"
+			        }
+			      ]
+			    },
+			    "year_date_id_date_hierarchy_has_year_date_id_day": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date_id.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date_id.date_hierarchy"
+			          }
+			        },
+			        "year.date_id.day": {
+			          "Target": {
+			            "Entity": "year.date_id.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_ids_have_day_ids"
+			        }
+			      ]
+			    },
+			    "year_date_id_year_has_year_date_id_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date_id.year": {
+			          "Target": {
+			            "Entity": "year.date_id.year"
+			          }
+			        },
+			        "year.date_id.quarter": {
+			          "Target": {
+			            "Entity": "year.date_id.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.year"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "year_ids_have_quarter_ids"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.quarter"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "quarter_ids_have_year_ids"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "year.date_id.quarter"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "year.date_id.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "quarter_ids_are_in_year_ids"
+			        }
+			      ]
+			    },
+			    "year_date_id_quarter_has_year_date_id_month": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date_id.quarter": {
+			          "Target": {
+			            "Entity": "year.date_id.quarter"
+			          }
+			        },
+			        "year.date_id.month": {
+			          "Target": {
+			            "Entity": "year.date_id.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.quarter"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "quarter_ids_have_month_ids"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.month"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_ids_have_quarter_ids"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "year.date_id.month"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "year.date_id.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_ids_are_in_quarter_ids"
+			        }
+			      ]
+			    },
+			    "year_date_id_month_has_year_date_id_day": {
+			      "Binding": {
+			        "ConceptualEntity": "years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date_id.month": {
+			          "Target": {
+			            "Entity": "year.date_id.month"
+			          }
+			        },
+			        "year.date_id.day": {
+			          "Target": {
+			            "Entity": "year.date_id.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.month"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_ids_have_day_ids"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date_id.day"
+			            },
+			            "Object": {
+			              "Role": "year.date_id.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "day_ids_have_month_ids"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "year.date_id.day"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "year.date_id.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "day_ids_are_in_month_ids"
 			        }
 			      ]
 			    }

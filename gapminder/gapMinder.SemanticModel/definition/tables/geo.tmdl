@@ -94,6 +94,14 @@ table geo
 
 		annotation SummarizationSetBy = Automatic
 
+	column main_religion_2008
+		dataType: string
+		lineageTag: a7cbd559-041f-4c6d-b36f-8383c350e47b
+		summarizeBy: none
+		sourceColumn: main_religion_2008
+
+		annotation SummarizationSetBy = Automatic
+
 	partition geo = m
 		mode: import
 		source = ```
@@ -109,7 +117,7 @@ table geo
 				        else if Text.Upper([geo_id]) = "ITA" or [country_name] = "Italy" then 
 				            "Italy"
 				        else if Text.Upper([geo_id]) = "VA" or [country_name] = "Holy See" then 
-				            "Vatican City"
+				            "Other"
 				        else 
 				            [country_name], 
 				        type text

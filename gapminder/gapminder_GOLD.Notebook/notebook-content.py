@@ -214,7 +214,8 @@ try:
             df_sil_sdg["sdg_region_name"],
             df_sil_geo["latitude"],
             df_sil_geo["longitude"],
-            df_sil_geo["is_un_state"]
+            df_sil_geo["is_un_state"],
+            df_sil_geo["main_religion_2008"]
         ).distinct()
 
     df_gold_geo.write.format("delta").mode("overwrite").option("overwriteSchema", "true").save(path_gold_dim_geo)
@@ -293,7 +294,7 @@ path_gold_dim_date = f"{lh_gold}/Tables/world_data_gapminder/gapminder_gold_dim_
 print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] A gerar dimensão de tempo (dim_date) para a Gold...")
 
 try:
-    # 1. Criamos uma sequência de anos (ex: de 1800 até 2100)
+    # 1. sequência de anos (ex: de 1800 até 2100)
     df_years = spark.range(1800, 2101).withColumnRenamed("id", "year")
     
     # 2. Construímos os atributos de data padrão para o Power BI

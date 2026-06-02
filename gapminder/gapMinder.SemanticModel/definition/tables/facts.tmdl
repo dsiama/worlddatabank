@@ -31,6 +31,34 @@ table facts
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure uder_five_mortality =
+			
+			CALCULATE(
+			    SUM('facts'[value]),
+			    'facts'[indicator_id] = "under_five_mortality_from_cme_per_1000_born" -- Garante o nome exato da tua dimensão
+			)
+		lineageTag: c1ac2a74-1cdd-45ef-b863-3cf22994c031
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure density =
+			CALCULATE(
+			    SUM('facts'[value]),
+			    'facts'[indicator_id] = "population_density_per_square_km"
+			)
+		lineageTag: 23c19968-7c1e-40f4-a7e8-94e6457e7e00
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure scholarship_men_women =
+			CALCULATE(
+			    SUM('facts'[value]),
+			    'facts'[indicator_id] = "mean_years_in_school_women_percent_men_25_to_34_years"
+			)
+		lineageTag: 19dd37c4-732d-4d75-a0c8-bc3b7343a79b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column geo_id
 		dataType: string
 		lineageTag: 8a419394-1097-43a1-9dc2-a38edbae3be0
